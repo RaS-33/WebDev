@@ -1,14 +1,35 @@
 body {
-    font-family: Monospace, Arial;
-    margin: 0 
-  }
-  
-  .title{
-    font-family: "Snell Roundhand";
-    text-align: center;
-  }
-  
-  .page_link{
-    text-decoration: none;
-    
-  }
+  font-family: Monospace, Arial;
+  margin: 20px;
+  padding: 20px;
+}
+
+.title{
+  font-family: "Snell Roundhand";
+  text-align: center;
+}
+
+.page_link_bar{
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 20px;
+border: solid;
+
+}
+.page_link{
+
+text-decoration:none;
+color: grey;
+margin:70px;
+font-size:25px;
+
+
+}
+
+.page_link:hover{
+text-decoration: underline;
+
+}
+
+
